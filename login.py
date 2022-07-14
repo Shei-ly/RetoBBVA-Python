@@ -12,7 +12,7 @@ from setuptools import Command
 def pantallainicio():
     global pantalla
     pantalla=Tk()
-    pantalla.geometry("300x550")
+    pantalla.geometry("400x550")
     pantalla.title("BBVA - AppConsultas")
     pantalla.iconbitmap("BBVAlogo.ico")
 
